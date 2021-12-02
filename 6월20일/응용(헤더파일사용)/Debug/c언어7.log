@@ -1,0 +1,6 @@
+﻿  소스.cpp
+c:\users\admin\documents\visual studio 2017\projects\c언어7\소스.cpp(31): warning C4477: 'fscanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
+c:\users\admin\documents\visual studio 2017\projects\c언어7\소스.cpp(31): warning C4477: 'fscanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'int'입니다.
+c:\users\admin\documents\visual studio 2017\projects\c언어7\소스.cpp(31): warning C4477: 'fscanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 4의 형식이 'int'입니다.
+  c언어7.vcxproj -> c:\users\admin\documents\visual studio 2017\Projects\c언어7\Debug\c언어7.exe
+  c언어7.vcxproj -> c:\users\admin\documents\visual studio 2017\Projects\c언어7\Debug\c언어7.pdb (Partial PDB)

@@ -1,0 +1,4 @@
+﻿  소스.cpp
+c:\users\admin\documents\visual studio 2017\projects\c언어5\소스.cpp(347): warning C4101: 'tot' :참조되지 않은 지역 변수입니다.
+  c언어5.vcxproj -> c:\users\admin\documents\visual studio 2017\Projects\c언어5\Debug\c언어5.exe
+  c언어5.vcxproj -> c:\users\admin\documents\visual studio 2017\Projects\c언어5\Debug\c언어5.pdb (Partial PDB)

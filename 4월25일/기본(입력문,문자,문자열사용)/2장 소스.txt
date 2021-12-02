@@ -1,0 +1,171 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+/*
+void main() {
+	printf("연습\n");
+	system("pause");
+}
+*/
+/*
+void main()
+{
+	printf("%d\n", 10);
+	printf("%lf\n", 10.5);
+	printf("%.1lf\n", 10.45+0.01);
+	printf("%.5lf\n", 10.5);
+
+	printf("%d+%d=%d\n", 10,20,10+20);
+	printf("%.1lf-%.1lf=%.1lf\n", 10.5,5.1,10.5-5.1);
+}
+*/
+/*
+void main() {
+	int a, b, c;
+	double d;
+	char e;
+
+	scanf("%d",&a);
+	printf("%d\n", a);
+
+	a = 10;
+	b = 20;
+	c = a + b;
+	d = 10.56;
+	e = 'A';
+
+	printf("a=%d\n", a);
+	printf("b=%d\n", b);
+	printf("c=%d\n", c);
+	printf("d=%.2lf\n", d);
+	printf("e=%c\n", e);
+}
+*/
+/*
+void main()
+{
+	int a,b=0;
+
+	a = 10;
+
+	printf("%d\n", a);
+	printf("%d\n", b);
+}
+*/
+/*
+void main()
+{
+	char a = 'A';
+
+	printf("%c는 %d\n", a, a);
+	printf("%d바이트\n", sizeof(int));
+}
+*/
+
+/*
+void main()
+{
+	char a[20] = "abcdefgh";
+	strcpy(a, "bbbbb");
+	printf("%s", a);
+}
+*/
+/*
+void main()
+{
+	//20.0 = 200 * 0.1;		//실수=정수*실수;
+	int a;
+	const double b=0.1;
+	double c;
+
+	a = 200;
+	
+	c = a*b;	//계산(핵심)
+
+	printf("%lf\n", c);
+}
+*/
+/*
+void main()
+{
+	int a;
+	double b;
+
+	printf("나이와 키입력:");
+	scanf("%d%lf", &a,&b);
+	//printf("키입력:");
+	//scanf("%lf", &b);
+	printf("나이:%d, 키:%.1lfcm\n", a,b);
+}
+*/
+/*
+void main()
+{
+	int a;
+	char b[10];
+	int c, d;
+	int m;
+	double n;
+
+	printf("학번입력:"); scanf("%d", &a);
+	printf("이름입력:"); scanf("%s", b);
+	printf("국어입력:"); scanf("%d", &c);
+	printf("영어입력:"); scanf("%d", &d);
+
+	m = c + d;	//총점
+	n = m / 2.0;	//평균		실수=정수/실수;
+
+	printf("학번:%d, 이름:%s\n", a, b);
+	printf("국어:%d, 영어:%d\n", c, d);
+	printf("총점:%d, 평균:%.1lf\n", m, n);
+}
+*/
+/*
+void main()
+{
+	int a;
+	char b;
+
+	scanf_s("%d ", &a);	
+	scanf("%c", &b);
+	printf("%d, %c\n", a, b);
+}
+*/
+void main()
+{
+	int a = 5, b = 2;
+	double c;
+
+	c = (double)a / b;
+	printf("%.1lf\n", c);
+
+	c = a / b;
+	printf("%d\n", (int)c);
+
+	c = a % b;
+	printf("%.0lf\n", c);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
